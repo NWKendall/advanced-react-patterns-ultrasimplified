@@ -202,6 +202,7 @@ const ClapCount = () => {
   const { count, setRef } = useContext(MediumClapContext);
   return (
     <span ref={setRef} data-refkey="clapCountRef" className={styles.count}>
+      {" "}
       + {count}
     </span>
   );
